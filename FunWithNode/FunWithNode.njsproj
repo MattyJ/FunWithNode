@@ -29,7 +29,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="Logger\Index.js">
+    <Compile Include="Logger\file.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logger\index.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="msgs.js" />
